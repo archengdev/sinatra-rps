@@ -16,7 +16,7 @@ get("/scissors") do
   elsif choice == "paper"
     res = "won"
   else
-    res = "end"
+    res = "tied"
   end
   
   @result = "We #{res}!"
@@ -32,7 +32,7 @@ get("/rock") do
   elsif choice == "scissors"
     res = "won"
   else
-    res = "end"
+    res = "tied"
   end
   
   @result = "We #{res}!"
@@ -49,7 +49,7 @@ get("/paper") do
   elsif choice == "rock"
     res = "won"
   else
-    res = "end"
+    res = "tied"
   end
   
   @result = "We #{res}!"
